@@ -1,0 +1,13 @@
+public String[] getArray(String num,String[]nums){
+		int index =0;
+		String[] newNums = new String[nums.length-1];
+		for(int i =0;i<nums.length;i++){
+			String data = nums[i];
+			if(data!=num){
+				newNums[index] = data;
+				index ++;	
+			}	
+		}		
+  return newNums;
+	}
+	
